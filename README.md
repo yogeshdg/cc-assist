@@ -5,7 +5,7 @@ cc-assist is a command line tool to perform data collection from the postgres ta
 The tool mainly does read only operations apart from the pool release functionality that will remove data from the database.This feature has been coded in a very safe way and its a safe operation as well but should be used under BU guidance.This is why it's password protected.
  
 **For Escalation/TAC teams:**
-This will help to collect logs faster.There is no need to search for commands or spend time in collecting tables and then logs.Everything will be done at the press of a single button.
+This will help to collect logs faster.There is no need to search for commands to collect the logs and the tables.Everything will be done at the press of a single button.
 
 
 
