@@ -5,7 +5,7 @@ cc-assist is a command line tool to perform data collection from the postgres ta
 The tool mainly does read only operations apart from the pool release functionality that will remove data from the database.This feature has been coded in a very safe way and its a safe operation as well but should be used under BU guidance.This is why it's password protected.
  
 **For Escalation/TAC teams:**
-This will help to collect logs faster.There is no need to search for commands to collect the logs and the tables.Everything will be done at the press of a single button.
+This will help to collect logs faster.There is no need to search for commands to collect the logs and the tables.
 
 
 
@@ -14,7 +14,7 @@ This will help to collect logs faster.There is no need to search for commands to
 
 
 This tool needs to be downloaded onto Catalyst Center.  
-Easiest way is to use git clone
+Easiest way is to use clone the repo 
 
 https_proxy=http://<>:80 git clone https://github.com/yogeshdg/cc-assist
 
@@ -42,7 +42,7 @@ $ ./cc-assist
         Select an Option : 
 
 ## Report and Logs can be found at:
- cc-assist logs will be available in a folder named cc-logs.This folder will be created in the same path where the program lies currently.So if you followed the earlier instructions on running the tool from /home/maglev, cc-logs will be available in /home/maglev/ .Depending on the cc-assist option chosen, a sub-folder will be created under cc-logs and the actual logs and tables will be in available as a tar.gz file inside this sub-folder. 
+ cc-assist logs will be available in a folder named cc-logs.This folder will be created in the same path where the program lies currently.Depending on the cc-assist option chosen, a sub-folder will be created under cc-logs and the actual logs and tables will be in available as a tar.gz file inside this sub-folder. 
 
  E.g This is how lan automation log collection folder will look.You need to upload lan_automation_06-24-2024_08-36-21_UTC.tar.gz file to the SR/BEMS
  cc-logs/lan_automation/lan_automation_06-24-2024_08-36-21_UTC.tar.gz
