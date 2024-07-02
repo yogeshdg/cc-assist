@@ -14,7 +14,9 @@ This will help to collect logs faster.There is no need to search for commands to
 
 
 This tool needs to be downloaded onto Catalyst Center.  
-Make sure you run the tool from /home/maglev only
+Easiest way is to use git clone
+
+https_proxy=http://<>:80 git clone https://github.com/yogeshdg/cc-assist
 
 
 $ ./cc-assist 
