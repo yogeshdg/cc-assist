@@ -44,7 +44,7 @@ $ ./cc-assist
 ## Report and Logs can be found at:
  cc-assist logs will be available in a folder named cc-logs.This folder will be created in the same path where the program lies currently.Depending on the cc-assist option chosen, a sub-folder will be created under cc-logs and the actual logs and tables will be in available as a tar.gz file inside this sub-folder. 
 
- E.g This is how lan automation log collection folder will look.You need to upload lan_automation_06-24-2024_08-36-21_UTC.tar.gz file to the SR/BEMS
+ E.g This is how lan automation log collection folder will look.You need to upload lan_automation_06-24-2024_08-36-21_UTC.tar.gz file to the SR
  cc-logs/lan_automation/lan_automation_06-24-2024_08-36-21_UTC.tar.gz
  
  ## How to submit feedbacks or bugs:
