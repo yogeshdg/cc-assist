@@ -48,4 +48,4 @@ $ ./cc-assist
  cc-logs/lan_automation/lan_automation_06-24-2024_08-36-21_UTC.tar.gz
  
  ## How to submit feedbacks or bugs:
- Please raise an issue in github to report any bugs or submit any new feature asks.In case you feel strongly about the feature ask please submit the code as well.That will increase the chances of that feature getting integrated in cc-assist.Any code you submit should be written in Python 3 only(version 3.6.9 to be precise)
+
